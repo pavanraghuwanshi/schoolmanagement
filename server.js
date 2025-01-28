@@ -353,4 +353,4 @@ app.get('/', (req, res) => {
     message: "Backend is set up in DevOps",
     environment: process.env.NODE_ENV || 'development'
   });
-});
+}); 
